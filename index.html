@@ -2,14 +2,21 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Animal Buttons</title>
+	<title>Animated Films</title>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
 	</script>
 	<script src="assets/js/app.js">
 	</script>
 </head>
 <body>
-	<button data-animal="cat">meow</button> <button data-animal="dog">woof</button> <button data-animal="bird">chirp</button>
-	<div id="gifs-appear-here"></div>
+	<div id="buttons-view"></div>
+
+	<form id="film-form">
+		<label for="film-input">Add a Film:</label>
+		<input type="text" id="film-input"><br>
+  		<input id="find-film" type="submit" value="Submit">
+	</form>
+
+	<div id="films-view"></div>
 </body>
 </html>

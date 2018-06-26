@@ -68,7 +68,14 @@ function renderGifs(queryURL) {
 
 function addFilm(event) {
 	event.preventDefault();
-	var film = $("#film-input").val();
-	topics.push(film);
-	renderButtons();
+	var film = $("#film-input").val().trim();
+	if(film === ""){
+		alert("Please input a movie.");
+		$("#film-input").val("");	
+	}
+	else{
+		topics.push(film);
+		renderButtons();
+		$("#film-input").val("");	
+	}
 }

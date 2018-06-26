@@ -1,4 +1,4 @@
-var topics = ["Rise of the Guardians", "Howl's Moving Castle", "Wreck-it Ralph", "The Incredibles", "My Neighbor Totoro", "Inside Out", "Big Hero 6", "Spirited Away"];
+var topics = ["Rise of the Guardians", "Howl's Moving Castle", "Wreck-it Ralph", "The Incredibles", "My Neighbor Totoro", "Inside Out", "Big Hero 6", "Spirited Away", "Toy Story", "Megamind"];
 var gifs = [];
 window.onload = function() {
 	$("#find-film").on("click", addFilm);

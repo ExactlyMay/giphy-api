@@ -3,20 +3,24 @@
 <head>
 	<meta charset="utf-8">
 	<title>Animated Films</title>
+	<link href="assets/css/reset.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
 	</script>
 	<script src="assets/js/app.js">
 	</script>
 </head>
 <body>
+<div class="container">
+	<p class="shadow medium-text">ANIMATED</p>
+	<p class="shadow small-text">FILMS</p>
+
 	<div id="buttons-view"></div>
-
-	<form id="film-form">
-		<label for="film-input">Add a Film:</label>
-		<input type="text" id="film-input"><br>
-  		<input id="find-film" type="submit" value="Submit">
+	<form id="film-form" name="film-form">
+		<label for="film-input">Add a Film:</label> <input id="film-input" type="text"><br>
+		<input id="find-film" type="submit" value="Submit">
 	</form>
-
 	<div id="films-view"></div>
+</div>
 </body>
 </html>

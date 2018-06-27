@@ -78,6 +78,10 @@ button:active {
   transform: translateY(4px);
 }
 
+#add-gifs{
+    display: block;
+}
+
 #film-form{
     display: inline-block;
 }
